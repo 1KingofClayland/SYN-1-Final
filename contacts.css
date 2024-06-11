@@ -1,0 +1,32 @@
+section{
+    height:50em;
+}
+.subject{
+    height:20em;
+    width:80%;
+}
+@media only screen and (min-width:768px){
+    section{
+        padding:0.2em 0.6em 0.2em;
+        height:60em;
+        width:90%;
+        position:relative;
+        top:5em;
+        left:5%;
+    }
+}
+@media only screen and (min-height:1000){
+    section{
+        height:80em;
+    }
+}
+@media only screen and (min-width:1000px){
+    section{
+        padding:0.2em 0.8em 0.2em;
+        height:70em;
+        width:90%;
+        position:relative;
+        top:6em;
+        left:5%;
+    }
+}
